@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="css/public/reset.css">
+    <link rel="stylesheet" href="css/public/bootstrap.min.css">
+    <!--当前页面样式-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css" />
+    <link rel="stylesheet" href="css/MyInvest.css">
+</head>
+<body>
+    <section class="sign_in">
+        <header class="header_info clear">
+            <div class="fl arrow_box"><a href="#" class="arrow_icon"></a></div>
+            <h3 class="fl header_tit">我的积分</h3>
+            <div class="fr empty"><a href="#">积分明细</a></div>
+        </header>
+        <div class="small_place"></div>
+        <section class="today">
+            <p class="inte_total"><span>2000</span>分</p>
+            <a href="#" class="">每日签到</a>
+        </section>
+        <div id="demo">
+            <div id="ca"></div>
+        </div>
+        <ul class="sk_amount">
+            <li class="clear">
+                <span class="fl">6月积分总收入</span>
+                <p class="fr sk_num">
+                    <span>200</span>
+                </p>
+            </li>
+            <li class="clear">
+                <span class="fl">6月积分总支出</span>
+                <p class="fr sk_num">
+                    <span>10</span>
+                </p>
+            </li>
+            <li class="clear">
+                <span class="fl">6月积分总支出</span>
+                <p class="fr sk_num">
+                    <span>10</span>
+                </p>
+            </li>
+            <li class="clear">
+                <span class="fl">6月积分总支出</span>
+                <p class="fr sk_num">
+                    <span>10</span>
+                </p>
+            </li>
+        </ul>
+        <ul class="clear earn_jf">
+            <li class="fl"><a href="#">积分兑换</a></li>
+            <li class="fl"><a href="#">赚积分</a></li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="js/fontsizeset.js"></script>
+    <script type="text/javascript" src="js/public/jquery.min.js"></script>
+    <script type="text/javascript" src="js/public/zepto.min.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript">
+        $('#ca').calendar({
+        });
+        $('#dd').calendar({
+            trigger: '#dt',
+            zIndex: 999,
+            format: 'yyyy-mm-dd',
+            onSelected: function (view,date,data){
+                console.log('event:onSelected');
+            },
+        });
+        $('.calendar-arrow').remove();
+        /*$('.calendar-hd').remove();*/
+        $('.month-items li:last-child').addClass('marking');
+         $('.month-items li:first-child').addClass('marking');
+        var oSpan=document.createElement('span');
+        //oSpan.className='aaaaa';
+        oSpan.innerHTML='&yen;';
+        $('.marking').append(oSpan);
+        $('.month-items li').css('width','60px').css('height','60px').css('lineHeight','60px');
+
+        var oI=document.createElement('i');
+        oI.className='date_icon';
+        $('.calendar-hd').append(oI);
+        var oDateSpan=document.createElement('span');
+        oDateSpan.className='dateSpan';
+        oDateSpan.innerHTML='签到记录';
+        $('.calendar-hd').append(oDateSpan);
+
+        /*点击签到*/
+        $('.today a').on('click',function(){
+            $(this).addClass('add_num').html('今日已签到+5');
+        });
+
+    </script>
+</body>
+</html>

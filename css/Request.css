@@ -1,0 +1,104 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-06 11:52:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-07 11:37:08
+*/
+body{background:#f5f5f5;font-family:'PingFang SC Medium' !important;}
+a{text-decoration:none !important;}
+a:focus{text-decoration:none !important;}
+a:active{text-decoration:none !important;}
+a{
+border:none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+outline:none;
+}
+p,h3{margin:0;}
+.header_info{ width:7.5rem; height:0.88rem; background:#07b; position:fixed;top:0;left:0;}
+.header_info .arrow_box{ width:20%;}
+.header_info .arrow_icon{ width:0.23rem; height:0.41rem; background:url(../images/img2/arrow_l_03.png) no-repeat;display:block; background-size:0.23rem 0.41rem; margin-left:0.24rem; margin-top:0.23rem;}
+.header_info .header_tit{ width:60%; text-align:center; font-size:0.32rem;color:#fff; text-align:center; margin:0; line-height:0.88rem;}
+.header_info .empty{width:20%;}
+.place{ height:1.57rem;}
+.small_place{height:0.88rem;}
+
+/*邀请好友的页面内容*/
+.request_con{ width:7.5rem; height:11.21rem; background:url(../images/img2/yq_bj_02.png) no-repeat; background-size:7.5rem 11.21rem;}
+.earn_num{ width:42%; margin:0 auto; padding-top:3.5rem; margin-bottom:0.08rem;}
+.earn_num p{ font-size:0.3rem; color:#fff;}
+.earn_num i{ width:0.39rem; height:0.2rem;background:url(../images/img2/eye_open.png) no-repeat; background-size:0.39rem 0.2rem; margin-top:0.12rem; margin-left:0.1rem;}
+.earn_num .eye_close{background:url(../images/img2/eye_close.png) no-repeat;background-size:0.39rem 0.2rem;}
+.money_box{height:1rem;}
+.money{text-align:center; color:#fbe73a;font-size:0.56rem;}
+.two_code{ width:2.45rem; height:2.45rem; background:url(../images/img2/some_15.png) no-repeat; background-size:2.45rem 2.45rem; margin:0 auto;}
+.sys{ text-align:center; font-size:0.24rem; color:#ffffff; margin-top:0.2rem;}
+.yqm{text-align:center; color:#fff; font-size:0.3rem; margin-top:0.1rem;}
+.yqm span{color:#fbe73a;}
+.will_yq{ width:4.63rem; height:0.8rem; background:url(../images/img2/yq_btn_03.png) no-repeat; background-size:4.63rem 0.8rem; display:block; font-size:0.32rem; color:#362c51; text-align:center; line-height:0.5rem; text-decoration:none; margin:0 auto; margin-top:0.15rem;border:none !important;
+-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+-webkit-tap-highlight-color:transparent !important;
+outline:none !important;}
+.will_yq:focus{ text-decoration:none; color:#362c51;}
+
+.yq_matters a{ font-size:0.32rem; color:#ffad08; margin-top:0.8rem;}
+.yq_matters a:active{text-decoration:none;}
+.yq_matters .rule{ padding-left:0.68rem;}
+.yq_matters .record{ padding-right:0.68rem;}
+
+/*没有邀请过好友的页面*/
+.one_line{ width:7.5rem; height:0.02rem; background:#02649c;}
+.none_yq{ width:7.5rem; height:6.26rem; background:url(../images/img2/none_yq.png) no-repeat; background-size:7.5rem 6.26rem;}
+.none_text{ font-size:0.3rem; color:#333; text-align:center; margin-top:0.56rem;}
+.quick_yq{ width:2.26rem; height:0.76rem; background:#ff9911;border-radius:0.08rem; display:block; font-size:0.32rem; color:#fff;text-align:center;line-height:0.76rem; text-decoration:none !important; margin:0 auto; margin-top:0.4rem;border:none !important;
+-webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+-webkit-tap-highlight-color:transparent !important;
+outline:none !important;}
+.quick_yq:focus,.quick_yq:hover,.quick_yq:active{ color:#fff;text-decoration:none;}
+
+/*邀请规则的页面*/
+.rule_con{ width:7.5rem; background:#fff; padding-left:0.2rem;padding-right:0.2rem; margin-top:0.2rem;}
+.rule_con h3{ font-size:0.28rem; margin-bottom:0.3rem;}
+.rule_con .step_tit{ padding-top:0.3rem;}
+.rule_con .explain_tit{ margin-top:0.5rem;}
+.rule_con p{ font-size:0.24rem;}
+.rule_con .step_con{ line-height:0.46rem;}
+.rule_con .explain_con{ padding-bottom:0.4rem;}
+
+/*邀请记录的页面*/
+.invited_record{ background:#fff; margin-top:0.2rem; margin-bottom:0;}
+.invited_record li{ height:0.8rem; border-bottom:0.02rem solid #eee; padding-left:0.2rem; padding-right:0.2rem; line-height:0.8rem;}
+.invited_record li:last-child{border-bottom:none;}
+.invited_record li .text_l{font-size:0.24rem; color:#999999;}
+.invited_record li .text_r{font-size:0.28rem;color:#666;}
+.invited_record li .diff_col{color:#ff9911;}
+.friends_tz{ height:0.9rem; text-align:center;color:#999999;font-size:0.28rem; line-height:0.9rem;}
+.reward_tit{ background:#fff; margin-bottom:0;}
+.reward_tit li{ float:left; width:33.3%; text-align:center; line-height:0.8rem; height:0.8rem;border-bottom:0.02rem solid #f5f5f5; font-size:0.28rem; color:#666666;}
+
+.f_invest_info{ background:#fff;}
+.f_invest_info li{ line-height:0.8rem; height:0.8rem;}
+.f_invest_info li p{ float:left; width:33.3%; text-align:center; font-size:0.24rem;}
+.f_invest_info li .f_phone{ color:#666;}
+.f_invest_info li .reward_sit{ color:#999;}
+.f_invest_info li .al_invest{ color:#ff9911;}/*好朋友投资后颜色改变*/
+
+/*交易明细的页面部分*/
+.detail_tit{ width:7.5rem; height:0.7rem; background:#fff; position:fixed;top:0.88rem; left:0;}
+.detail_tit li{ width:2.5rem; height:0.7rem; float:left; text-align:center; line-height:0.7rem;}
+.detail_tit li a{ width:2.5rem; height:0.7rem; color:#999; font-size:0.28rem; display:block;}
+.detail_tit .det_cur{border-bottom:0.03rem solid #0077bb;}
+.detail_tit .det_cur a{color:#0077bb;}
+
+.detail_list{ background:#fff; margin-top:0.2rem;}
+.detail_list li{ height:1.27rem; border-bottom:0.03rem solid #eee; padding-left:0.2rem; padding-right:0.2rem;}
+.det_top h3{ font-size:0.28rem; color:#666666;}
+.det_top span{ font-size:0.24rem; color:#999;}
+.det_bottom .bott_tit{font-size:0.24rem; color:#999;}
+.det_bottom .bott_num{ font-size:0.28rem; color:#666;}
+.bott_num span{ color:#ff6d57;}
+.bott_num .minus{ color:#81c36b;}
+.det_top{ padding-top:0.28rem; margin-bottom:0.08rem;}
+
+.det_con>ul{display:none;}
+.det_con>ul.det_current{ display:block;}

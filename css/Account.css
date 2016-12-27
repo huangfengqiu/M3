@@ -1,0 +1,125 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-07 11:40:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-08 18:00:42
+*/
+body{background:#f5f5f5;font-family:'PingFang SC Medium' !important;}
+a{text-decoration:none !important;}
+a:focus,a:active,a:hover{text-decoration:none !important; outline:none !important;}
+a{
+border:none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+outline:none;
+}
+p,h3{margin:0;}
+.header_info{ width:7.5rem; height:0.88rem; background:#07b; position:fixed;top:0;left:0;}
+.header_info .arrow_box{ width:20%;}
+.header_info .arrow_icon{ width:0.23rem; height:0.41rem; background:url(../images/img2/arrow_l_03.png) no-repeat;display:block; background-size:0.23rem 0.41rem; margin-left:0.24rem; margin-top:0.23rem;}
+.header_info .header_tit{ width:60%; text-align:center; font-size:0.32rem;color:#fff; text-align:center; margin:0; line-height:0.88rem;}
+.header_info .empty{width:20%;}
+.place{ height:1.57rem;}
+.small_place{height:0.88rem;}
+
+/*账户设置部分*/
+.ImgWrap{ width:1.2rem;height:1.2rem; position:relative;margin-right:0.3rem;}
+.headImg{width:1.2rem;height:1.2rem; border-radius:50%; display:block; overflow:hidden;}
+.headImg img{ width:1.2rem;height:1.2rem;border-radius:50%;}
+.file{ width:1.2rem;height:1.2rem; position:absolute;top:0;left:0; opacity:0;}
+
+.user_head{ background:#fff; padding-top:0.3rem; padding-left:0.2rem; padding-bottom:0.3rem;}
+.user_name_box{ margin-top:0.2rem;}
+.user_name_box p{ font-size:0.24rem; color:#999999;}
+.user_name{ margin-bottom:0.1rem;}
+.user_name span{ color:#333;}
+.user_days span{ color:#006fb7;}
+
+.user_info_list{ background:#fff; margin-top:0.2rem;}
+.user_info_list .user_info{ height:0.88rem; line-height:0.88rem; font-size:0.28rem; color:#666; display:block; padding-left:0.2rem; padding-right:0.2rem; border-bottom:0.03rem solid #eee;}
+.user_info_list .user_info:last-child{ border-bottom:none;}
+.user_type span{color:#999;}
+.user_type i{width:0.13rem; height:0.22rem; background:url(../images/img2/arrow_r_03.png) no-repeat; background-size:0.12rem 0.22rem; margin-top:0.32rem; margin-left:0.22rem; margin-right:0.03rem;}
+
+.sign_out,.next_btn{ width:6.5rem;height:0.8rem; background:#0077bb; display:block;text-align:center; line-height:0.8rem; color:#fff; font-size:0.32rem; border-radius:0.08rem; margin:0 auto; margin-top:0.6rem;}
+.sign_out:focus,.sign_out:active,.next_btn:focus,.next_btn:active,.sign_out:hover,.next_btn:hover{color:#fff !important;}
+
+.pass_info{ width:7.5rem; height:0.8rem;background:#fff; margin-top:0.2rem;}
+.pass_info .login_tit{ line-height:0.8rem;padding-left:0.2rem; font-size:0.24rem; color:#666;}
+.pass_info .login_text{ width:5rem; height:0.5rem; font-size:0.24rem; margin-left:0.1rem;outline:none; padding-top:0.01rem; color:#999; border:none;}
+.pass_info .yzm{ width:3.7rem; margin-top:0.15rem;}
+.pass_info .get_yzm{ width:2.3rem; height:0.8rem; background:#0077bb; text-align:center; line-height:0.8rem; color:#fff;}
+
+/*重新发送验证码*/
+.pass_info .change_in{ margin-top:0.15rem; padding-left:0.2rem; color:#666;}
+.change_yzm .yzm{margin-left:0.3rem; width:4.9rem;}
+.change_yzm .get_yzm{ background:#ccc; color:#fff;}
+.change_yzm .diff_cor{ color:#666;} 
+
+.yzm_tip{text-align:center; margin-top:0.58rem;}
+.yzm_tip span{ font-size:0.24rem; color:#ff3311; background:url(../images/img2/tip_icon_03.png) no-repeat; background-size:0.32rem 0.32rem; padding-left:0.4rem;}
+.diff_mar_top{ margin-top:0.16rem;}
+
+/*修改手机号码成功的部分*/
+.cue{ width:7rem; height:2.9rem; background:#fff; margin:0 auto; margin-top:0.2rem;padding-top:0.6rem;}
+.succ_icon{ width:1.2rem; height:1.3rem; background:url(../images/img2/right_icon_03.png) no-repeat; display:block;background-size:1.2rem 1.2rem; margin:0 auto;}
+.cue p{ font-size:0.36rem; color:#333333; text-align:center; margin-top:0.2rem;}
+.real_name{ background:#fff; margin-top:0.2rem;}
+.real_name a{ height:0.88rem; display:block; border-bottom:0.03rem solid #eee; line-height:0.88rem; padding-left:0.2rem; padding-right:0.2rem;}
+.real_name a:last-child{border-bottom:none;}
+.real_tit{ font-size:0.28rem; color:#666;}
+.real_info{font-size:0.24rem;color:#999; }
+.real_info span{float:left;}
+.real_info b{ font-weight:normal;}
+.real_info i{ width:0.12rem; height:0.22rem; background:url(../images/img2/arrow_r_03.png) no-repeat; background-size:0.12rem 0.22rem; float:left; margin-top:0.3rem; margin-left:0.12rem;}
+
+/*开通资金托管账户的页面*/
+.open_acc{}
+.open_acc .open_text{ width:7.5rem; height:0.88rem; margin-top:0.2rem;background:#fff;} 
+.open_text input{ width:7.5rem; height:0.5rem; margin-top:0.18rem; padding-left:0.4rem; font-size:0.24rem;color:#999; outline:none !important;border:none;}
+.contact{ font-size:0.24rem; color:#999999; margin-top:0.35rem;padding-left:0.2rem;}
+.contact span{ color:#0077bb;}
+.open_tip{ padding-left:0.2rem; margin-top:0.6rem; padding-right:0.2rem;}
+.open_tip h3{ font-size:0.24rem;color:#999; margin-bottom:0.2rem;}
+.open_tip p{ font-size:0.24rem; color:#666; line-height:0.4rem;}
+
+/*开通资金托管账户成功*/
+.open_succ{ width:7.023rem; height:4.2rem; background:#fff; margin:0 auto; border-radius:0.06rem; margin-top:0.2rem; padding-top:0.6rem;}
+.succ_tit{ font-size:0.36rem;color:#333333; text-align:center; margin-top:0.3rem;}
+.open_text,.open_banlance{ font-size:0.28rem;color:#666;text-align:center; line-height:0.7rem;}
+.open_banlance{ line-height:0.3rem;}
+.open_banlance span{color:#ff9911;}
+.org_btn{ background:#ff9911;}
+.white_btn{ background:#fff; color:#ff9911; margin-top:0.2rem;}
+.white_btn:focus,.white_btn:active,.white_btn:hover{ color:#ff9911 !important; outline:none !important;}
+
+/*我的银行卡(有绑定的情况)*/
+.bank_card{ width:7.03rem; height:2.53rem; background:#fff; border-radius:0.08rem; margin:0 auto; margin-top:0.2rem;}
+.card_top .card_icon{ width:3.27rem; height:0.69rem; float:left; margin-top:0.3rem;margin-left:0.25rem;}
+.card_top .quick_tit{ float:right; font-size:0.32rem;color:#999; margin-right:0.24rem; margin-top:0.4rem;}
+.card_num{font-size:0.48rem; color:#666;padding-left:0.9rem; padding-top:1.2rem;margin-bottom:0.1rem;}
+.card_money{ font-size:0.2rem;color:#999;padding-left:0.9rem;}
+.none_bd{ width:7.5rem; height:2.95rem; background:url(../images/img2/card_bj_02.png) no-repeat; background-size:7.5rem 2.95rem;}
+.none_bd p{font-size:0.28rem;color:#666; text-align:center; padding-top:2.3rem;}
+.bind_btn{ margin-top:0.2rem;}
+
+/*风险评估部分*/
+.q_mark{ width:0.48rem;height:0.48rem; background:url(../images/img2/q_mark_03.png) no-repeat; background-size:0.44rem 0.44rem; display:block; margin-left:0.8rem; margin-top:0.2rem;}
+.risk_type{ margin-top:0.2rem; padding-left:0.2rem;padding-right:0.2rem; padding-bottom:0.3rem;}
+.risk_icon{ width:0.34rem;height:0.34rem; background:url(../images/img2/tip_icon1.png) no-repeat; float:left; background-size:0.3rem 0.3rem; margin-right:0.1rem;margin-top:0.04rem;}
+.risk_text{ width:6.2rem; float:left; font-size:0.18rem;color:#999;}
+.assess_con{ background:#fff;}
+.assess_tit{font-size:0.28rem;color:#666; line-height:0.98rem; padding-left:0.2rem; border-bottom:0.03rem solid #ccc;}
+
+.assess_list{}
+
+
+.assess_list li{ border-bottom:0.03rem solid #eeeeee; padding-left:0.2rem; padding-top:0.2rem;padding-bottom:0.2rem;}
+.assess_list li i{ width:0.48rem;height:0.48rem; background:url(../images/img2/change_false.png) no-repeat; background-size:0.44rem 0.44rem; padding-top:0.22rem; margin-right:0.18rem; margin-top:0.08rem;}
+.assess_list li .assess_text{ font-size:0.24rem;color:#666; width:6.5rem;}
+.assess_list li:last-child{border-bottom:none;}
+.assess_list li .check{ background:url(../images/img2/change_succ.png) no-repeat; background-size:0.44rem 0.44rem;}
+
+.page_box{ padding-left:0.2rem;}
+.up_page{ width:1.5rem; font-size:0.24rem;color:#666;}
+.ass_page{ text-align:center; font-size:0.24rem;color:#999; width:1.5rem; margin-left:1.3rem;}
